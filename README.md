@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+## Project colors
+#1A2238
+#9DAAF2
+#FF6A3D
+#F4DB7D
+
 First, run the development server:
 
 ```bash
