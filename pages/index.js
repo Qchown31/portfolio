@@ -1,5 +1,9 @@
 function HomePage() {
-  return <div>TESTER</div>;
+  return (
+    <div className="main-content">
+      <div className="container"></div>
+    </div>
+  );
 }
 
 export default HomePage;

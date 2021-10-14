@@ -1,19 +1,24 @@
 import classes from "./MainNavigation.module.css";
 
+import Link from "next/link";
+import Image from "next/image";
+
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
+      <div className={classes.logo}>
+        <Image src="/qc-logo.png" alt="me" width="50%" height="50%" />
+      </div>
       <nav>
         <ul>
           <li>
-            <Link to="/">Portfolio</Link>
+            <Link href="/">Portfolio</Link>
           </li>
           <li>
-            <Link to="/new-meetup">About</Link>
+            <Link href="/new-meetup">About</Link>
           </li>
           <li>
-            <Link to="/new-meetup">Resume</Link>
+            <Link href="/new-meetup">Resume</Link>
           </li>
         </ul>
       </nav>
