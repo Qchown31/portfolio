@@ -1,4 +1,4 @@
-import classes from "./MainNavigation.module.css";
+import classes from "./MainNavigation.module.scss";
 
 import Link from "next/link";
 import Image from "next/image";
