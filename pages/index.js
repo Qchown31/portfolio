@@ -1,8 +1,13 @@
+import HomeHero from "../components/UI/HomeHero";
+import ProjectTile from "../components/UI/ProjectTile";
+import { Fragment } from "react";
+
 function HomePage() {
   return (
-    <div className="main-content">
-      <div className="container"></div>
-    </div>
+    <Fragment>
+      <HomeHero />
+      <ProjectTile />
+    </Fragment>
   );
 }
 
